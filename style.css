@@ -11,7 +11,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 45%;
-height: 50%;
+height: 100%;
 
 
 } 
@@ -20,11 +20,11 @@ height: 50%;
 
 /*Want to zoom the image on the mouse hover*/
 img {
-            transition: transform 0.3s ease-in-out;
+            transition: transform 0.5s ease-in-out;
         }
 
   img:hover {
-            transform: scale(1.2);
+            transform: scale(1.5);
         }
 
 
@@ -43,7 +43,7 @@ img {
 
 .mainText{
 
-padding: 0px;
+padding: 10px;
 text-align: center;
 
 
